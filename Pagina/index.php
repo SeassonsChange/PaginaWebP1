@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <!--Searchbar-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -33,17 +35,18 @@
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/searchbar.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <script src="assets/js/menu.js"></script>
 
 
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-wisth, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 
 </head>
 
 
-<body>
+<body>    
     <div class="wrapper">
         <header>
             <nav>
@@ -69,9 +72,14 @@
                 <div class="menu">
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="./vistas/contactus.html">Conócenos</a></li>
+                    <!--
+                            <li><a href="./vistas/contactus.html">Conócenos</a></li>
                         <li><a href="./vistas/doc.html">Doctores</a></li>
                         <li><a href="./vistas/ubi.html">Dirección</a></li>
+                    -->
+                        <li><a href="./vistas/contactus.html">Contácto</a></li>
+                        <li><a href="./vistas/mostrarInsumos.php">Comprar</a></li>
+                        <li><a href="./vistas/logIn-SigIn.html">Iniciar Sesión</a></li>
                     </ul>
                 </div>
             </nav>
@@ -110,7 +118,7 @@
         </section>
         <section>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators">    
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -139,6 +147,8 @@
     </main>
 
     <footer class="section footer-classic context-dark bg-image" style="background:#3E8E94;">
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
         <section>
             <div class="container">
                 <div class="row row-30">
@@ -190,6 +200,7 @@
                             <li><a href="./vistas/contactus.html">Conócenos</a></li>
                             <li><a href="./vistas/doc.html">Doctores</a></li>
                             <li><a href="./vistas/ubi.html">Dirección</a></li>
+                            <li><a href="./vistas/contactus.html">Contácto</a></li>
                         </ul>
                     </div>
                 </div>
